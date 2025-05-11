@@ -1,0 +1,7 @@
+Credits
+--------------------
+
+Tailwind CSS - https://tailwindcss.com  
+Plyr - https://plyr.io  
+Bootstrap Icons - https://icons.getbootstrap.com
+Argon2 Hash - https://github.com/P-H-C/phc-winner-argon2

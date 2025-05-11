@@ -1,0 +1,7 @@
+{
+    "top_player_ad": "<img src=\"assets\/img\/720x90.png\" alt=\"Placeholder\" style=\"width: 720px; height: 90px; display: block; margin: 0 auto;\">\r\n",
+    "bottom_player_ad": "<img src=\"assets\/img\/720x90.png\" alt=\"Placeholder\" style=\"width: 720px; height: 90px; display: block; margin: 0 auto;\">\r\n",
+    "above_footer_player": "<img src=\"assets\/img\/300x250.png\" alt=\"Placeholder\" style=\"width: 300px; height: 250px; display: block; margin: 0 auto;\">\r\n",
+    "under_welcome_message_home": "<img src=\"assets\/img\/720x90.png\" alt=\"Placeholder\" style=\"width: 720px; height: 90px; display: block; margin: 0 auto;\">\r\n",
+    "above_footer_home": "<img src=\"assets\/img\/300x250.png\" alt=\"Placeholder\" style=\"width: 300px; height: 250px; display: block; margin: 0 auto;\">\r\n"
+}

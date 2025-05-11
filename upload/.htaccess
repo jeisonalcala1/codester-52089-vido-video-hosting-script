@@ -1,0 +1,14 @@
+# Aktifkan mod_rewrite
+RewriteEngine On
+
+# Blokir akses langsung ke direktori /uploads/
+RewriteCond %{REQUEST_URI} ^/uploads/?$
+RewriteRule ^ - [F]
+RewriteRule ^v$ video.php [QSA,L]
+
+
+# Izinkan akses ke file di dalam folder /uploads/
+<FilesMatch ".*">
+    Require all granted
+</FilesMatch>
+

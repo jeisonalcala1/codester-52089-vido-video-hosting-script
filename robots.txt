@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /vd-admin.php
+Disallow: /admin/
+Disallow: /manage-video.php
+Disallow: /logout.php
+Disallow: /metadata.json
+Disallow: /views.json
+Allow: /public/

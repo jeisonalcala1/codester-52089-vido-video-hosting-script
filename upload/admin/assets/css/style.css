@@ -1,0 +1,12 @@
+.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        .tab-item {
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .tab-item:hover {
+            background-color: #E5E7EB; /* Tailwind's gray-200 */
+            color: #1F2937; /* Tailwind's gray-800 */
+        }
+        
+        }

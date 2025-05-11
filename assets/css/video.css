@@ -1,0 +1,56 @@
+.video-frame {
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        transition: max-width 0.3s ease;
+    }
+
+    .video-frame.video-playing {
+        max-width: 800px;
+    }
+
+    .video-frame video {
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .url-container {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .video-url-input {
+        width: 200px; /* Adjust width as needed */
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .copy-button {
+        /* Adjust width as needed */
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .report-button {
+        margin-top: 8px;
+    }
+
+    .views-button {
+        cursor: not-allowed;
+        margin-top: 8px;
+    }
+    .responsive-ad img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}

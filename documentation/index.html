@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Vido Video</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 font-sans antialiased">
+
+    <div class="flex flex-col md:flex-row">
+        <nav class="w-full md:w-64 bg-gray-100 p-6 text-black md:block" id="toc">
+            <div class="flex justify-between md:block">
+                <h3 class="text-2xl font-semibold mb-4">Vido Video 1.0</h3>
+                <button id="nav-toggle" class="md:hidden text-black focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <ul class="space-y-4" id="nav-menu">
+                <li><a href="#introducing" class="hover:text-blue-600">Introducing</a></li>
+                <li><a href="#system-requirements" class="hover:text-blue-600">System Requirements</a></li>
+                <li><a href="#installing" class="hover:text-blue-600">Installing</a></li>
+                <li><a href="#admin-access" class="hover:text-blue-600">Admin Access</a></li>
+                <li><a href="#admin-features" class="hover:text-blue-600">Admin Features</a></li>
+                <li><a href="#support" class="hover:text-blue-600">Support</a></li>
+                <li><a href="#qna" class="hover:text-blue-600">Q&A</a></li>
+                <li><a href="#changelog" class="hover:text-blue-600">Changelog</a></li>
+            </ul>
+        </nav>
+
+        <main class="flex-1 px-6 py-10 space-y-12">
+            <section id="introducing">
+                <h2 class="text-3xl font-bold text-black mb-4">Introducing</h2>
+                <p class="text-lg text-gray-700">Vido PHP Script provides a free and straightforward solution for hosting short videos. Enjoy seamless uploads with high-quality streaming capabilities. Share videos effortlessly and reach your audience without any limitations. This guide covers the essential steps to install and manage the website, offering a smooth experience for all users.</p>
+            </section>
+
+            <section id="system-requirements">
+                <h2 class="text-3xl font-bold text-black mb-4">System Requirements</h2>
+                <ul class="list-disc pl-5 text-lg text-gray-700 space-y-2">
+                    <li>PHP Version: Minimum 8.1 or higher</li>
+                    <li>Required PHP Extensions: JSON</li>
+                    <li>Required PHP Extension: Fileinfo</li>
+                    <li>SSL (Secure Socket Layer) enabled for secure communication</li>
+                    <li>Folder Permissions: Ensure /upload folder has 0777 permissions</li>
+                    <li>allow_url_fopen: Enabled</li>
+                    <li>file_get_contents: Enabled for remote file access</li>
+                </ul>
+            </section>
+
+            <section id="installing">
+                <h2 class="text-3xl font-bold text-black mb-4">Installing</h2>
+                <ol class="list-decimal pl-5 text-lg text-gray-700 space-y-2">
+                    <li>Open <code class="bg-gray-200 p-1 rounded">yourdomain.com/install</code>, follow the system requirements check, and proceed to the next step.</li>
+                    <li>Configure your website settings, including the site name, domain, email for report notifications, upload limit, and custom text displayed to users when the upload limit is exceeded. Proceed to the next step.</li>
+                    <li>Set up a PIN credential to access the admin page. The password is securely hashed using the latest Argon2 algorithm to prevent unauthorized access.</li>
+                    <li>Completion: Ensure to delete the <code class="bg-gray-200 p-1 rounded">install</code> folder before using the website.</li>
+                </ol>
+            </section>
+
+            <section id="admin-access">
+                <h2 class="text-3xl font-bold text-black mb-4">Admin Access</h2>
+                <p class="text-lg text-gray-700">To access the admin panel, navigate to <code class="bg-gray-200 p-1 rounded">yourdomain.com/vd-admin.php</code>. The default PIN is <strong>1234</strong> or the PIN you created during setup. To change the PIN, visit the admin navigation menu.</p>
+            </section>
+
+            <section id="admin-features">
+                <h2 class="text-3xl font-bold text-black mb-4">Admin Features</h2>
+                <ul class="list-disc pl-5 text-lg text-gray-700 space-y-2">
+                    <li><strong>Dashboard:</strong> Monitor current activities, including total videos, popular videos, the 5 most recent videos, and statistical graphs.</li>
+                    <li><strong>Manage:</strong> Manage videos directly, display video IDs for direct links, and delete videos if necessary. Sort videos by most recent or oldest.</li>
+                    <li><strong>SEO:</strong> All SEO elements have been implemented for optimal performance.</li>
+                    <li><strong>ADS:</strong> Apply any type of advertisement to customizable locations on your site.</li>
+                </ul>
+            </section>
+
+            <section id="support">
+                <h2 class="text-3xl font-bold text-black mb-4">Support</h2>
+                <p class="text-lg text-gray-700">Need help? Or suggest new features? Reach out to support at <a href="mailto:vidovideohost@gmail.com" class="text-blue-600 hover:underline">vidovideohost@gmail.com</a>.</p>
+            </section>
+
+            <section id="qna">
+                <h2 class="text-3xl font-bold text-black mb-4">Q&A</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="font-semibold text-xl text-black">Q: Can this script run on shared hosting?</h3>
+                        <p class="text-lg text-gray-700">A: Yes, as long as the system requirements are met.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-xl text-black">Q: Can I install this on a subdomain?</h3>
+                        <p class="text-lg text-gray-700">A: No, we recommend installing it on the main domain.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-xl text-black">Q: What video formats can be uploaded?</h3>
+                        <p class="text-lg text-gray-700">A: Currently, only MP4 is supported. However, please note that this is the first release. We highly value your feedback on which formats, such as MKV, MOV, AVI, etc., are essential for your clients. We will release updates based on your input in future versions.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-xl text-black">Q: Do you have hosting recommendations?</h3>
+                        <p class="text-lg text-gray-700">A: Yes, we currently use hosting through this link (href click here). Please use my affiliate link to support further development.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-xl text-black">Q: Can I request new features?</h3>
+                        <p class="text-lg text-gray-700">A: Yes, we welcome constructive feedback and suggestions, especially if they can benefit other developers. I will work on the updates you request.</p>
+                    </div>
+                </div>
+            </section>
+
+<section id="changelog">
+    <h2 class="text-2xl font-bold text-black mb-4">Changelog</h2>
+    <div class="space-y-6">
+        <div>
+            <h3 class="font-semibold text-xl text-black">v1.1 - Bug Fixes and Minor Updates</h3>
+            <ul class="list-none pl-5 text-sm text-gray-700">
+                <li><span class="bg-green-100 text-green-700 p-1 rounded-md font-mono">Added:</span> Added General Setting on admin panel.</li>
+                <li><span class="bg-green-100 text-green-700 p-1 rounded-md font-mono">Added:</span> Added Reset PIN on admin panel.</li>
+                <li><span class="bg-green-100 text-green-700 p-1 rounded-md font-mono">Added:</span> Added Fake Views Tool on admin panel.</li>
+                <li><span class="bg-yellow-100 text-yellow-700 p-1 rounded-md font-mono">Changed:</span> Reduced server load during peak traffic periods.</li>
+                <li><span class="bg-yellow-100 text-yellow-700 p-1 rounded-md font-mono">Changed:</span> Implemented caching mechanism to improve website speed.</li>
+                <li><span class="bg-red-100 text-red-700 p-1 rounded-md font-mono">Fixed:</span> Minor UI tweaks for a more user-friendly experience.</li>
+            </ul>
+        </div>
+        <div>
+                        <h3 class="font-semibold text-xl text-black">v1.0 - Initial Release</h3>
+                    </div>
+    </div>
+</section>
+
+
+            
+        </main>
+    </div>
+
+    <footer class="bg-gray-100 py-8 text-center">
+        <p class="text-gray-600">© 2024 Vido Video. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('nav-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('nav-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
